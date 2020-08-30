@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Ürün Liste</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="row  py-2">
+                    <div
+                        class="pl-md-0 logo col-12 col-md-2 col-lg-3 col-xl-3 d-flex justify-content-md-start justify-content-center">
+                        <img class="w-100" src="assets/img/logo.PNG" alt=""></div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-5 d-flex align-items-center my-2  ">
+                        <div class="input-group m-0 align-items-center search_box ">
+                            <input type="text" class="form-control" placeholder="Aradığınız ürünün adını giriniz"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text w-100 h-100" id="basic-addon2"><img
+                                        src="assets/img/116836-copy-2.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="my-4 my-md-0col-12 col-md-6 px-0  col-lg-5 col-xl-4 d-flex justify-content-center  align-items-center">
+                        <div class="d-flex bayi pl-3">
+                            <div class="d-flex align-items-center"><i class="far fa-user"></i></div>
+                            <div class="bayi_bottom pt-2 pl-2">
+                                <p class="p-0 m-0"><span>BAYİ</span>
+                                </p>
+                                <p class="p-0 m-0">GİRİŞ / BAŞVURU</p>
+                            </div>
+                        </div>
+                        <div class="d-flex bayi mx-2 pl-3">
+                            <div class="d-flex align-items-center"><i class="far fa-user"></i></div>
+                            <div class="bayi_bottom pt-2 pl-2">
+                                <p class="p-0 m-0"><span>ÜYE</span>
+                                </p>
+                                <p class="p-0 m-0">GİRİŞ / KAYIT</p>
+                            </div>
+                        </div>
+                        <div class="d-flex sepet pl-2">
+                            <div class="d-flex align-items-center"><img class="img_sepet"
+                                    src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy">
+                            </div>
+                            <div class="bayi_bottom pt-3 pl-1">
+                                <p class="p-0 m-0"><span>SEPET</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars pt-2"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto p-0">
+                        <li class="nav-item active home ">
+                            <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EL SANATLARI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OTO AKSESUAR</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EV ELEKTRONİĞİ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GÜVENLİK SİSTEMLERİ</a>
+                        </li>
+
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0 firsat text-center">
+                        <div class="w-100"> FIRSAT ÜRÜNLERİ</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item first"><i class="fas fa-home pr-2 pt-1 "></i><a href="#">Anasayfa</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">El Sanatları</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <aside class="col-12 col-md-3 d-flex pt-3  justify-content-center justify-content-md-start p-0">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link">
+                                        Kategoriler
+                                    </button>
+                                </h5>
+                                <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne"><img src="assets/img/path-2-copy-5.svg" srcset="assets/img/path-2-copy@2x.png 2x,
+                                    assets/img/path-2-copy@3x.png 3x" class="Path-2-Copy"></span>
+                            </div>
+
+                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body ">
+                                    <div id="accordion_2">
+                                        <div class="card border-0">
+                                            <div class="card-header border-0" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link" data-toggle="collapse"
+                                                        data-target="#collapsefive" aria-expanded="true"
+                                                        aria-controls="collapsefive">
+                                                        El Sanatları
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapsefive" class="collapse" aria-labelledby="headingOne"
+                                                data-parent="#accordion_2">
+                                                <div class="card-body">
+                                                    <ul class="mb-0">
+                                                        <li>El Yapımı Vazo </li>
+                                                        <li> El Yapımı Fincan</li>
+                                                        <li>El Yapımı Halı</li>
+                                                        <li>El Yapımı Sürahi</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0">
+                                            <div class="card-header border-0" id="headingTwo">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                        data-target="#collapsesix" aria-expanded="false"
+                                                        aria-controls="collapsesix">
+                                                        Oto Aksesuar
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                        </div>
+                                        <div class="card border-0">
+                                            <div class="card-header border-0" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                        data-target="#collapseseven" aria-expanded="false"
+                                                        aria-controls="collapseseven">
+                                                        Ev Elektroniği
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                        </div>
+                                        <div class="card border-0">
+                                            <div class="card-header border-0" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                        data-target="#collapseEight" aria-expanded="false"
+                                                        aria-controls="collapseEight">
+                                                        Güvenlik sistemleri
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Renk Seçimi
+                                    </button>
+                                </h5>
+                                <span data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo"><img src="assets/img/path-2-copy-5.svg" srcset="assets/img/path-2-copy@2x.png 2x,
+                                        assets/img/path-2-copy@3x.png 3x" class="Path-2-Copy"></span>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="mx-1 border_color_active">
+                                            <img src="assets/img/oval-copy-13.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-16.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-18.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-21.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-22.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-24.svg">
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-36.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-30.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-32.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-31.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-33.svg">
+                                        </div>
+                                        <div class="mx-1 border_color">
+                                            <img src="assets/img/oval-copy-34.svg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Ebat Seçimi
+                                    </button>
+                                </h5>
+                                <span data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree"><img src="assets/img/path-2-copy-5.svg" srcset="assets/img/path-2-copy@2x.png 2x,
+                                        assets/img/path-2-copy@3x.png 3x" class="Path-2-Copy"></span>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="sizes py-1 d-flex">
+                                        <div class="size active ">20 cm</div>
+                                        <div class="size">25 cm</div>
+                                        <div class="size">30 cm</div>
+                                        <div class="size">35 cm</div>
+                                        <div class="size">40 cm</div>
+                                        <div class="size">45 cm</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                        Fiyat Aralığı
+                                    </button>
+                                </h5>
+                                <span data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour"><img src="assets/img/path-2-copy-5.svg" srcset="assets/img/path-2-copy@2x.png 2x,
+                                        assets/img/path-2-copy@3x.png 3x" class="Path-2-Copy"></span>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="d-flex mx-4">
+                                        <div class="d-flex">
+                                            <img src="assets/img/oval-copy-40.svg" class="p-0 Oval-Copy-40">
+                                            <img src="assets/img/rectangle_2.svg" class="Rectangle">
+                                        </div>
+                                       <div class="d-flex">
+                                        <img src="assets/img/oval-copy-40.svg" class="Oval-Copy-40">
+                                        <img src="assets/img/rectangle-copy-34.svg"
+                                        class="Rectangle-Copy-34">
+                                       </div>
+                                        
+                                    </div>
+                                    <p class="text-center price pt-2">0 ₺ - 437 ₺</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_button text-center mt-3">
+                            <button class="btn">FİLTRELERİ UYGULA</button> </div>
+                    </div>
+                </aside>
+                <div class="col-12 col-md-9 mt-4 mt-md-0">
+                    <div class="product_top mx-3 my-3 d-flex">
+
+                        <div class="form-group d-block  mt-1 mt-sm-0">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Varsayılan Sıralama</option>
+                            </select>
+                        </div>
+                        <div class="form-group flex-grow-1 ">
+                            <div class="form-check d-flex">
+                                <img src="assets/img/group-5.svg" class="Group-5 pt-2">
+                                <label class="form-check-label pl-2" for="gridCheck">
+                                    Tükenenleri Gösterme
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="assets/img/combined-shape.svg" class="Combined-Shape pl-2 pr-2 mb-2 ">
+                            <img src="assets/img/combined-shape_2.svg" class="border-left pl-2 mb-2 Combined-Shape">
+                        </div>
+                    </div>
+                    <div class="row product_list mx-2 mx-sm-0">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                                <span class="sale">% 30</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <div class="product_image position-relative">
+                                    <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+                                    <div class="hover_top pt-2">
+                                        <div class="d-flex justify-content-center mb-2">
+                                            <img src="assets/img/group-15.svg" class="mx-1">
+                                            <img src="assets/img/group-14.svg">
+                                            <img src="assets/img/group-13.svg" class="mx-1">
+                                            <img src="assets/img/group-12.svg">
+                                            <img src="assets/img/group-11.svg" class="mx-1">
+                                        </div>
+                                        <div class="sizes py-1 d-flex justify-content-center">
+                                            <div class="size active p-1">20 cm</div>
+                                            <div class="size p-1">25 cm</div>
+                                            <div class="size p-1">30 cm</div>
+                                            <div class="size p-1">35 cm</div>
+                                            <div class="size p-1">40 cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                                <span class="new">YENİ</span>
+                                <span class="search"><img src="assets/img/116836-copy-2.png"></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-7-copy.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>El Yapımı Çift Başlı Bosna Kartalı
+                                        Desenli Seramik Vazo</div>
+                                    <p><strike>290,00 ₺</strike><span class="pl-2">170,00 ₺</span></p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product">
+                                <img class="w-100" src="assets/img/group-11.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>Tefal GV7830 Pro Express 2400 W
+                                        Buhar Kazanlı Ütü</div>
+                                    <p class="normal">1.039,90 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product ">
+                                <img class="w-100" src="assets/img/group-10.png" alt="">
+
+                                <div class="product_information text-center pt-4 px-3">
+                                    <div>NECVOX DVN -P 1050 CİVİC 2012
+                                        SONRASI NEW PLATİNUM NAV…</div>
+                                    <p class="normal">2,837.94 ₺</p>
+                                </div>
+                                <span class="shop_bag"><img class="img_sepet" src="assets/img/1388385-copy.png" srcset="assets/img/1388385-copy@2x.png 2x,
+                                    assets/img/1388385-copy@3x.png 3x" class="-copy"></span>
+                                <span class="star"><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paging mt-4">
+                        <div class="d-flex justify-content-center">
+                            <div><img src="assets/img/group-16.svg" class="Group-16"></div>
+                            <div class="page ml-2">1</div>
+                            <div class="page ml-2 active">2</div>
+                            <div class="page ml-2">...</div>
+                            <div class="page ml-2">8</div>
+                            <div class="page ml-2">9</div>
+                            <div class="page ml-2">10</div>
+                            <div class="ml-2"><img src="assets/img/group-3.svg" class="Group-16"></div>
+                        </div>
+                        <div class="mt-3">
+                            <p>Toplam 312 ürün bulundu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container mt-5 pt-4 ">
+            <div class="footer_top row mx-4 mx-md-0">
+                <div class="col-12 col-sm-6 col-md-3 mt-4 mt-md-0">
+                    <div class="footer_categories">
+                        <h4>KATEGORİLER</h4>
+                        <ul>
+                            <li><a href="">EL SANATLARI</a></li>
+                            <li><a href="">OTO AKSESUAR</a></li>
+                            <li><a href="">EV ELEKTRONİĞİ</a></li>
+                            <li><a href="">GÜVENLİK SİSTEMLERİ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3  mt-4 mt-md-0">
+                    <div class="footer_categories">
+                        <h4>ÖNEMLİ BİLGİLER</h4>
+                        <ul>
+                            <li><a href="">TESLİMAT KOŞULLARI</a></li>
+                            <li><a href="">ÜYELİK SÖZLEŞMESİ</a></li>
+                            <li><a href="">SATIŞ SÖZLEŞMESİ</a></li>
+                            <li><a href="">GARANTİ VE İADE KOŞULLARI</a></li>
+                            <li><a href="">GİZLİLİK VE GÜVENLİK</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3  mt-4 mt-md-0">
+                    <div class="footer_categories">
+                        <h4>HIZLI İŞLEMLER</h4>
+                        <ul>
+                            <li><a href="">ANA SAYFA</a></li>
+                            <li><a href="">İLETİŞİM</a></li>
+                            <li><a href="">YENİ ÜRÜNLER</a></li>
+                            <li><a href="">İNDİRİMDEKİLER</a></li>
+                            <li><a href="">SEPETİM</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-3  mt-4 mt-md-0">
+                    <div class="footer_categories">
+                        <h4>ADRES BİLGİLERİ</h4>
+                        <ul>
+                            <li><a><i class="far fa-envelope"></i>E-POSTA:
+                                    <span>a.gitmez80@hotmail.com</span> </a></li>
+                            <li><a><i class="fas fa-phone-alt"></i> TELEFON: <span>0 (532) 176 19 80</span></a></li>
+                            <li class="adress pt-2"><a><i class="fas fa-map-marker-alt"></i>ADRES: <span>Kütahya Ali
+                                        Paşa mahallesi devlet hatun
+                                        caddesi no.23/2 kat.1</span> </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom mt-3 row mx-3 mx-md-0">
+                <div class="col-12 col-md-6 p-0 ">
+                    <img src="assets/img/bankalar.png" class="w-100" alt="">
+                </div>
+                <div class="col-12  col-md-6 pl-2 p-md-0">
+                    <img class="w-100" src="assets/img/bankalar2.png" alt="">
+                </div>
+            </div>
+            <div class="footer_copyright text-center my-2">
+                <p>©2019 Tüm Hakkı Saklıdır.zeyttiin.com</p>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</html>
